@@ -36,8 +36,8 @@
 // you will have to get real ones.
 // #define USB_VID 0xCAFE
 // #define USB_PID 0xBAF2
-#define USB_VID 0x044F
-#define USB_PID 0x041B
+#define USB_VID 0x044F    // FarmStick VID
+#define USB_PID 0x041B    // Farmstick PID
 
 tusb_desc_device_t desc_device = {
     .bLength = sizeof(tusb_desc_device_t),
